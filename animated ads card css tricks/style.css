@@ -1,0 +1,66 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+ :root{
+
+    --color1:#000000;
+    --color2:#333333; 
+    --color3:#FFFFFF; 
+    --color4:#9965F4; 
+    --color5:#B794F6; 
+    --color6:#B794F6; 
+    --color7:#ffffff; 
+}
+
+body{
+    background-color: #333333;    
+}
+
+
+.base-box{
+ 
+    width:300px;
+    background-color: rgb(255, 255, 255);
+    margin: 280px auto;
+    border-radius:8px;
+    padding-top:10px;
+}
+
+.imgbox{
+    background-image: url(https://res.cloudinary.com/css-tricks/image/upload/w_600,q_auto,f_auto/buysellads/uu/7/93750/1629117008-2021-08-16_mux_1_.png);
+    background-size: cover;
+    height: 280px;
+    width: 280px;
+    background-color: var(--color7);
+    margin:0px auto 20px auto;
+    border-radius:8px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 1.5rem rgba(17,17,17,.7);
+
+}
+
+p {
+    font-family:'Roboto',sans-serif;
+    font-size:0.8rem;
+    text-align: left;
+    font-weight: 100px; 
+    letter-spacing: 0.8px;
+    padding: 0px 8px 8px 8px;
+}
+
+a{
+    color:rgb(38, 38, 184);
+    font-family:'Roboto',sans-serif;
+    font-size:0.9rem;
+    letter-spacing: 1px;
+    font-weight: 100px ;
+    margin-left: 10px;
+}
+
+
+.imgbox:hover{
+    transform: rotate(-4deg) scale(1.08);
+    
+    transition: 0.1s ease-in;
+}
